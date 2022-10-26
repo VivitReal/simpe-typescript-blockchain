@@ -2,8 +2,9 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "es2016",
-    "outDir": "./build",
+    "outDir": "./dist",
     "removeComments": true
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }
